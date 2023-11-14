@@ -1,0 +1,62 @@
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Selectores de descendientes: E F (1). Selectores. CSS. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+        background-color: snow;
+    }
+    div{
+      border: red 3px solid;
+      margin: 10px;
+      padding: 10px;
+    }
+    div:hover{
+        background-color:lightblue;
+    }
+    p{
+        color: gray;
+    }
+
+    div p {
+      color: red;
+    }
+
+    a:link{
+        color: blue;
+    }
+    a:visited{
+        color: blueviolet;
+    }
+    a:hover{
+        color: chocolate;
+    }
+    input:hover{
+        background-color: blueviolet;
+        color: snow;
+    }
+    input:active{
+        background-color: cadetblue;
+        color: snow;
+    }
+  </style>
+</head>
+<body>
+  <p>Esto es un párrafo &lt;p&gt; <a href="https://www.amazon.es/?&tag=hydesnav-21&ref=pd_sl_781oit2196_e&adgrpid=55589983189&hvpone=&hvptwo=&hvadid=366505385428&hvpos=&hvnetw=g&hvrand=16825499342058709664&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005493&hvtargid=kwd-10573980&hydadcr=4855_1809862">prueba</a></p>
+  <div>
+    <p>Esto es un párrafo &lt;p&gt;.</p>
+    <ul>
+      <li>Esto es una lista
+        <p>Esto es un párrafo &lt;p&gt; dentro de una lista</p>
+      </li>
+    </ul>
+    <p>Esto es otro párrafo &lt;p&gt;.</p>
+    <address>Esto no es un párrafo &lt;p&gt;, sino una dirección &lt;address&gt;.</address>
+  </div>
+  <form action="procesar,php" method="get">
+    <input type="button" value=¡Púlsame!>
+  </form>
+  <p>Esto es otro párrafo &lt;p&gt;.</p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*Autor: Alejandro Peláez*/
+/*Comienzo con los css*/
+body{
+    text-align: center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: snow;
+    border: darkslategray 3px solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(94, 89, 89);
+}
+p{
+    color:darkseagreen;
+}
+p.prueba{
+    color: aquamarine;
+}
+#prueba2{
+    color:cornflowerblue;
+}
+*{
+    color:darkcyan;
+}
+div{
+    border: darkslategray 3px solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(94, 89, 89);
+}

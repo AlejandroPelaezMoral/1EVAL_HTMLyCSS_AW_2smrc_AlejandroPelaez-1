@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../horario clase"
+		},
+		{
+			"path": "../multimedia"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "multimedia"
+	}
+}
