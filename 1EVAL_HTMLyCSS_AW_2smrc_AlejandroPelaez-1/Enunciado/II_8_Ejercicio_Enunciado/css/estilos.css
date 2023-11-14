@@ -1,3 +1,24 @@
 body{
     background-color: lightgrey;
 }
+nav{
+    background-color: rgb(88, 79, 79);
+    height: 50px;
+}
+div.container nav div.nav-item{
+   color: snow;   
+   font-size: 20px;
+   display: inline-block;
+}
+div.container{
+    background-color: lightgreen;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div.fixed-sidebar{
+    border: 2px black solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 7%;
+    padding: 10px;
+}
