@@ -1,0 +1,12 @@
+img .izq {
+    float: left;
+}
+img .dcha {
+    float: right;
+}
+hr{
+    clear: left;
+}
+p.centrado {
+    text-align: center;
+  }
