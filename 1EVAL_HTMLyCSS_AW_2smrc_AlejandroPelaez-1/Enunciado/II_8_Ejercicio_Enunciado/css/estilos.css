@@ -40,25 +40,25 @@ figure{
     width: 300px;
     padding: 10px;
     text-align: center;
+    margin-top: 100px;
+    margin-left: 80px;
 }
 #li1{
     position: absolute;
     z-index: 4;
-    transform: rotate(-40deg);
 }
 #li2{
     position: absolute;
     z-index: 3;
-    left: 200px;
-    top: 100px;
+    left: 220px;
 }
 #li3{
     position: absolute;
     z-index: 2;
-    left: 300px;
+    left: 440px;
 }
 #li4{
     position: absolute;
     z-index: 1;
-    left: 400px;
+    left: 660px;
 }
