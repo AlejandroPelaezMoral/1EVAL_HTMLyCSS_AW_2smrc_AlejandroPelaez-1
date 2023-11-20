@@ -32,6 +32,7 @@ div.fixed-sidebar{
 }
 div.fixed-sidebar ul li{
     list-style-type: none;
+    float: left;
 }
 figure{
     border: black solid 2px;
