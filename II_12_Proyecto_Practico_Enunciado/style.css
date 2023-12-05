@@ -47,7 +47,7 @@ nav.header a{
 }
 #content{
     margin-top: 60px;
-    float: right;
+    margin-left: 25%;
     width: calc(100% - 320px);
     margin-right: 20px;
 }
@@ -74,6 +74,6 @@ left: 0;
 width: 97.5%;
 height: 16px;
 padding: 20px;
-position: absolute;
-text-align: center;
+position: sticky;
+text-align: absolute;
 }
